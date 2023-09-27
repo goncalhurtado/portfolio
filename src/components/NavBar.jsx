@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -7,13 +8,13 @@ const NavBar = () => {
         <div className="d-flex justify-content-end">
           <div className="d-flex">
             <div>
-              <div>Home</div>
+              <Link to="/home">Home</Link>
             </div>
             <div>
-              <div>Projects</div>
+              <Link to="/projects">Projects</Link>
             </div>
             <div>
-              <div>Contact</div>
+              <Link to="/contact">Contact</Link>
             </div>
             <div>
               <div>Ligth</div>
