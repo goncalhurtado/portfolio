@@ -5,11 +5,12 @@
     padding: 0px;
 }
 
-body {
-    height: 100vh;
-    background-color: black;
-}
-
 .btnHover:hover {
     background-color: #e945f5;
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
 }

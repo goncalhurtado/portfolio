@@ -1,0 +1,34 @@
+:root {
+    .background {
+        padding: 0px !important;
+        height: 100vh !important;
+    }
+}
+
+// #root {
+// }
+body {
+    // background-color: red !important;
+    height: 100vh !important;
+    padding: 5px;
+}
+
+.animated-background {
+    background: radial-gradient(circle, rgba(145, 29, 153, 1) 0%, #4f0f53 100%);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -9,7 +9,7 @@ import Education from "./pages/Education";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container pb-5">
       <div className="row mb-4">
         <div className="col-lg-7 col-sm-12"></div>
         <div className="col-lg-5 col-sm-12">
@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-4 col-sm-12 justsmmb ">
+        <div className="col-lg-4 col-sm-12 justsmmb">
           <GoncalCard />
         </div>
         <div className="col-lg-8 col-sm-12">

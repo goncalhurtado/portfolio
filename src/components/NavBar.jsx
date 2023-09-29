@@ -80,7 +80,7 @@ const NavBar = () => {
           </div>
         </div>
         <div
-          className="col-2 d-flex align-items-center justify-content-center darkMode "
+          className="col-2 d-flex align-items-center justify-content-center darkMode"
           onClick={toggleMode}
         >
           <i
