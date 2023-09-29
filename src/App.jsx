@@ -9,10 +9,10 @@ import Education from "./pages/Education";
 
 function App() {
   return (
-    <>
-      <div className="row container mb-4">
-        <div className="col-7"></div>
-        <div className="col-5">
+    <div className="container">
+      <div className="row mb-4">
+        <div className="col-lg-7 col-sm-12"></div>
+        <div className="col-lg-5 col-sm-12">
           <NavBar />
         </div>
       </div>
@@ -29,7 +29,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

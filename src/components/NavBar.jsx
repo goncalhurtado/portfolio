@@ -23,7 +23,7 @@ const NavBar = () => {
                   <div
                     className={
                       active === "home"
-                        ? "navbar__link activeLink"
+                        ? "navbar__link activeLink "
                         : "navbar__link"
                     }
                   >

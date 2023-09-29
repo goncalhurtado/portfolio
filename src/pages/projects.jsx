@@ -27,7 +27,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="card-body">
-                  <p className="card-text text-secondary">{data.description}</p>
+                  <p className="card-text">{data.description}</p>
                 </div>
 
                 <div className="d-flex justify-content-center">
