@@ -5,6 +5,7 @@ a {
 .navbar {
     background-color: $primary;
     border-radius: 15px;
+    justify-content: center;
 
     &__link {
         width: 80px;
@@ -12,7 +13,6 @@ a {
         margin-right: 2px;
         margin-left: 2px;
 
-        /* Centra el contenido horizontalmente */
         &__logo {
             color: $text;
         }
@@ -38,4 +38,32 @@ a {
 .activeLink {
     background-color: $secondary !important;
     border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        max-width: 100vh !important;
+        display: flex !important;
+        width: 100%;
+        border-radius: 15px;
+
+        &__link {
+            width: 70px;
+        }
+
+        &__text {
+            color: $text;
+            font-size: small;
+        }
+    }
+
+    .navSm {
+        width: 100%;
+        display: flex !important;
+    }
+
+    .darkMode {
+        position: absolute;
+        transform: scale(0);
+    }
 }

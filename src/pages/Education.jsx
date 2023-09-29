@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="card">
       <div className="row p-4">
-        <div className="col-12 col-sm-6 d-flex align-items-center justify-content-center text-start">
+        <div className="col-12 col-sm-6 align-items-center justify-content-center text-start">
           <div className="d-flex flex-column align-items-start">
             <i className="bi bi-journal-code fs-4 educationLogo"></i>
             <h5 className="m-0 p-0">Full Stack Developer - MERN Stack</h5>

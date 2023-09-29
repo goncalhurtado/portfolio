@@ -16,8 +16,8 @@ function App() {
           <NavBar />
         </div>
       </div>
-      <div className="row container">
-        <div className="col-lg-4 col-sm-12">
+      <div className="row">
+        <div className="col-lg-4 col-sm-12 justsmmb ">
           <GoncalCard />
         </div>
         <div className="col-lg-8 col-sm-12">

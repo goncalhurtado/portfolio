@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <>
       <div className="row">
-        <div className="col-10">
+        <div className="col-10 navSm">
           <div className="d-flex justify-content-center navbar">
             <div className="d-flex align-items-center">
               <div>
@@ -55,7 +55,9 @@ const NavBar = () => {
                         : "navbar__link"
                     }
                   >
-                    <i className="bi bi-book navbar__link__logo"></i>
+                    <div className="navbar__link__logo">
+                      <i className="bi bi-book"></i>
+                    </div>
                     <p className="navbar__text m-0">Education</p>
                   </div>
                 </Link>
@@ -78,7 +80,7 @@ const NavBar = () => {
           </div>
         </div>
         <div
-          className="col-2 d-flex align-items-center justify-content-center darkMode"
+          className="col-2 d-flex align-items-center justify-content-center darkMode "
           onClick={toggleMode}
         >
           <i

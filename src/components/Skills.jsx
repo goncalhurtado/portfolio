@@ -6,50 +6,50 @@ const Skills = () => {
       <div className="container">
         <h5 className="justsmmb">Front-End</h5>
         <div className="row justify-content-center">
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center">
             <img src="https://skillicons.dev/icons?i=html" />
             <p className="d-none d-sm-block">HTML</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=css" alt="" />
             <p className="d-none d-sm-block">CSS3</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=js" alt="" />
             <p className="d-none d-sm-block">Javascript</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=react" alt="" />
             <p className="d-none d-sm-block">ReactJs</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=bootstrap" alt="" />
             <p className="d-none d-sm-block">Bootstrap</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=materialui" alt="" />
             <p className="d-none d-sm-block">MaterialUi</p>
           </div>
-          <div className="col-4 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=sass" alt="" />
             <p className="d-none d-sm-block">Sass</p>
           </div>
         </div>
         <h5>Back-End</h5>
         <div className="row justify-content-center">
-          <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=mongodb" />
             <p className="d-none d-sm-block">MongoDB</p>
           </div>
-          <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=express" alt="" />
             <p className="d-none d-sm-block">Express</p>
           </div>
-          <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=nodejs" alt="" />
             <p className="d-none d-sm-block">NodeJs</p>
           </div>
-          <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
+          <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center justsmmb">
             <img src="https://skillicons.dev/icons?i=postman" alt="" />
             <p className="d-none d-sm-block">Postman</p>
           </div>
