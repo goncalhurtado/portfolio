@@ -3,13 +3,14 @@ import React from "react";
 const GoncalCard = () => {
   return (
     <div className="card p-2">
-      <div>
+      <div className="m-auto">
         <img
           src="src/assets/img/goncal.jpg"
           alt="imagen"
-          className=" goncalImg"
+          className="d-none d-sm-block goncalImg"
         />
       </div>
+
       <div>
         <h3>Gonzalo Hurtado</h3>
         <h6 className="text-secondary">Web Developer</h6>

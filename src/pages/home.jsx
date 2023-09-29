@@ -6,7 +6,7 @@ const Home = () => {
     <div className="card">
       <div className="card-body">
         <div>
-          <h3 className="text-start">Hi, Im Gonzalo</h3>
+          <h3 className="text-center text-sm-start">Hi, Im Gonzalo</h3>
           <div className="">
             <p className="text-start m-0 mb-1">
               I'm 24 years old Full-Stack developer based in Buenos Aires.
@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-start mt-2">Skills</h4>
+          <h4 className="text-center text-sm-start mt-2">Skills</h4>
           <Skills />
         </div>
       </div>

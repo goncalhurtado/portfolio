@@ -12,7 +12,7 @@ const Projects = () => {
           {projectsData.map((data) => {
             return (
               <div
-                className="card col-6 mb-4 p-1 "
+                className="card col-sm-6 col-12  mb-4 p-1 "
                 key={data.id}
                 onClick={(e) => handle(e, data.url)}
               >

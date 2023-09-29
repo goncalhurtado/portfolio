@@ -17,10 +17,10 @@ function App() {
         </div>
       </div>
       <div className="row container">
-        <div className="col-4 ">
+        <div className="col-lg-4 col-sm-12">
           <GoncalCard />
         </div>
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />

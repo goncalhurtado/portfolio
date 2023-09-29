@@ -3,3 +3,12 @@
         color: $primary;
     }
 }
+
+@media (max-width: 575.98px) {
+    .contactSizeBtn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+}
