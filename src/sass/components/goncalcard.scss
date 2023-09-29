@@ -1,0 +1,38 @@
+.goncalImg {
+    width: 150px;
+}
+
+.logo {
+    font-size: 30px;
+    color: $secondary;
+    cursor: pointer;
+}
+
+.contactLogo {
+    background-color: $secondary;
+    color: $primary;
+    font-size: 20px;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contLogo {
+    background-color: $secondary;
+    border-radius: 100px;
+}
+
+.btn-primary {
+    font-weight: bold;
+    color: $primary;
+    background-color: $secondary;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: $primary;
+    background-color: #e945f5;
+}
