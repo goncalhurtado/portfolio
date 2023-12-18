@@ -8,7 +8,7 @@ a {
     flex-direction: row;
 
     .navbar {
-        background-color: $primary;
+        background-color: $background;
         border-radius: 15px;
         justify-content: center;
         width: 90% !important;
@@ -49,7 +49,7 @@ a {
     }
 
     .darkMode {
-        background-color: $primary;
+        background-color: $background;
         border-radius: 15px;
         width: 10%;
         display: flex;

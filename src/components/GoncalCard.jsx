@@ -13,7 +13,7 @@ const GoncalCard = () => {
         </div>
 
         <div className="col-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12 col-sm-6 col-xs-6 m-auto contGoncal">
-          <h3 className="textName">Gonzalo Hurtado</h3>
+          <h1 className="textName">Gonzalo Hurtado</h1>
           <h6 className="text-secondary textDev">Web Developer</h6>
           <div className="d-flex justify-content-center gap-2">
             <div>

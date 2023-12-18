@@ -1,13 +1,15 @@
 // @import url('https://fonts.googleapis.com/css2?family=Exo&family=M+PLUS+Rounded+1c&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 @import "./themes/variables.scss";
 @import "./base/base.scss";
+@import "./themes/font.scss";
 //components
 @import "./components/cards.scss";
 @import "./components/skills.scss";
 @import "./components/goncalcard.scss";
 @import "./components/navbar.scss";
 //pages
+@import "./pages/home.scss";
 @import "./pages/projects.scss";
 @import "./pages/education.scss";
 @import "./pages/contact.scss";
