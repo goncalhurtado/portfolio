@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-center text-sm-start mt-2">Skills</h4>
+          <h4 className="text-center text-sm-start mt-5 mb-5">Skills</h4>
           <Skills />
         </div>
       </div>

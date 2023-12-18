@@ -18,6 +18,7 @@ export const projectsData = [
         description: "Coin Market Clone",
         technologies: [reactJs, bootstrap, sass],
         url: "https://www.google.com/?hl=es",
+        github: "",
     },
     {
         id: 2,
@@ -26,7 +27,7 @@ export const projectsData = [
         description: "Similar to Spotify but with Vanilla JavaScript😁",
         technologies: [javascript, css, html],
         url: "https://pinkify-music.netlify.app/",
-
+        github: "",
     },
     {
         id: 3,
@@ -35,6 +36,7 @@ export const projectsData = [
         description: "Character searcher for Rick and Morty from an API",
         technologies: [reactJs, materialUi, sass],
         url: "https://www.google.com/?hl=es",
+        github: "",
     },
     {
         id: 4,
@@ -43,6 +45,7 @@ export const projectsData = [
         description: "Functional calculator based on the iconic DataMatch Electronic Calculator 2500",
         technologies: [reactJs, bootstrap, sass],
         url: "https://www.google.com/?hl=es",
+        github: "",
     },
     {
         id: 5,
@@ -51,6 +54,7 @@ export const projectsData = [
         description: "New version of classic web app game on spanish",
         technologies: [reactJs, bootstrap, sass],
         url: "https://www.google.com/?hl=es",
+        github: "",
     },
     {
         id: 6,
@@ -59,5 +63,6 @@ export const projectsData = [
         description: "A NotePad app",
         technologies: [reactJs, bootstrap, sass],
         url: "https://www.google.com/?hl=es",
+        github: "",
     }
 ]
