@@ -5,6 +5,8 @@ const Skills = () => {
     <>
       <div className="container">
         <h5 className="justsmmb">Front-End</h5>
+
+        <br className="br" />
         <div className="row justify-content-center">
           <div className="col-3 col-sm-4 col-md-3 col-lg-2 text-center">
             <img src="https://skillicons.dev/icons?i=html" />

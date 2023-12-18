@@ -2,7 +2,43 @@
     width: 150px;
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+    .goncalImg {
+        width: 75%;
+    }
+
+    .botoncv {
+        width: 100%;
+        text-wrap: nowrap;
+    }
+
+    .textName {
+        font-size: large;
+    }
+
+    .textDev {
+        font-size: small;
+    }
+
+    .contGoncal {
+        margin-left: -16px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .botoncv {
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .textName {
+        font-size: large;
+    }
+
+    .goncalImg {
+        width: 100%;
+    }
+}
 
 .logo {
     font-size: 30px;
