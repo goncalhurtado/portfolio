@@ -9,7 +9,7 @@ import Education from "./pages/Education";
 
 function App() {
   return (
-    <div className="container pb-5">
+    <div className="containerApp">
       {/* <div className="row mb-4">
         <div className="col-lg-4 col-sm-12"></div>
         <div className="col-lg-8 col-sm-12">
