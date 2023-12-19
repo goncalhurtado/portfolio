@@ -1,10 +1,49 @@
-.icon-size {
-    width: 48px;
-    height: 48px;
-}
+// .icon-size {
+//     width: 48px;
+//     height: 48px;
+// }
+// @media (max-width: 575.98px) {
+//     .justsmmb {
+//         margin-bottom: 1rem;
+//     }
+// }
+.skillCont {
+    width: 100%;
+    margin-bottom: 30px;
 
-@media (max-width: 575.98px) {
-    .justsmmb {
-        margin-bottom: 1rem;
+    h2 {
+        margin: 0;
+    }
+
+    .skills {
+        display: flex;
+        width: 100%;
+        margin-left: -8px;
+
+        .skill {
+            position: relative;
+            margin-top: 10px;
+            text-align: center;
+            margin-left: 8px;
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .skillName {
+            font-size: 12px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .skill:hover .skillName {
+            opacity: 1;
+        }
     }
 }

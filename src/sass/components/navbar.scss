@@ -2,68 +2,87 @@ a {
     text-decoration: none;
 }
 
-.navbar {
-    background-color: $primary;
-    border-radius: 15px;
-    justify-content: center;
+.navbarContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
 
-    &__link {
-        width: 80px;
-        text-align: center;
-        margin-right: 2px;
-        margin-left: 2px;
-
-        &__logo {
-            color: $text;
-        }
-
-        &__text {
-            color: $text;
-            max-width: 50px;
-        }
-    }
-}
-
-.darkMode {
-    background-color: $primary;
-    border-radius: 100%;
-    width: 70px;
-    cursor: pointer;
-
-    &__logo {
-        font-size: 20px;
-    }
-}
-
-.activeLink {
-    background-color: $secondary !important;
-    border-radius: 10px;
-}
-
-@media (max-width: 1200px) {
     .navbar {
-        max-width: 100vh !important;
-        display: flex !important;
-        width: 100%;
+        background-color: $background;
         border-radius: 15px;
+        justify-content: center;
+        width: 90% !important;
+        height: 70px;
+        margin-right: 10px;
+        display: flex;
 
         &__link {
-            width: 70px;
+            text-align: center;
+            width: 130px;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            p {
+                color: $text-secondary !important;
+            }
+
+            i {
+                color: $text-secondary !important;
+            }
         }
 
-        &__text {
-            color: $text;
-            font-size: small;
-        }
-    }
+        .activeLink {
 
-    .navSm {
-        width: 100%;
-        display: flex !important;
+            // color: $text;
+            p {
+                color: $text !important;
+            }
+
+            i {
+                color: $text !important;
+            }
+
+            // background-color: $secondary;
+            border-radius: 10px;
+        }
     }
 
     .darkMode {
-        position: absolute;
-        transform: scale(0);
+        background-color: $background;
+        border-radius: 15px;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &__logo {
+            font-size: 20px;
+        }
     }
 }
+
+// @media (max-width: 1200px) {
+//     .navbar {
+//         // max-width: 100vh !important;
+//         display: flex !important;
+//         width: 100%;
+//         border-radius: 15px;
+//         &__link {
+//             width: 70px;
+//         }
+//         &__text {
+//             color: $text;
+//             font-size: small;
+//         }
+//     }
+//     .navSm {
+//         width: 100%;
+//         display: flex !important;
+//     }
+//     .darkMode {
+//         position: absolute;
+//         transform: scale(0);
+//     }
+// }
