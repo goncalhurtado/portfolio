@@ -13,7 +13,7 @@ const Skills = () => {
           {frontEndSkills.map((skill) => (
             <div className="skill" key={skill.name}>
               <img src={skill.icon} alt={skill.name} />
-              <p>{skill.name}</p>
+              <p className="skillName">{skill.name}</p>
             </div>
           ))}
         </div>
@@ -24,7 +24,7 @@ const Skills = () => {
           {backEndSkills.map((skill) => (
             <div className="skill" key={skill.name}>
               <img src={skill.icon} alt={skill.name} />
-              <p>{skill.name}</p>
+              <p className="skillName">{skill.name}</p>
             </div>
           ))}
         </div>
@@ -35,7 +35,7 @@ const Skills = () => {
           {otherTools.map((skill) => (
             <div className="skill" key={skill.name}>
               <img src={skill.icon} alt={skill.name} />
-              <p>{skill.name}</p>
+              <p className="skillName">{skill.name}</p>
             </div>
           ))}
         </div>

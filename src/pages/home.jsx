@@ -6,7 +6,7 @@ const Home = () => {
     <div className="card">
       <div className="card-body">
         <div>
-          <h1 className="text-center text-sm-start">Hi, Im Gonzalo</h1>
+          <h1 className="">Hi, Im Gonzalo</h1>
           <div className="textHome">
             <p className="textHome__main pImportant">
               I'm 24 years old <u>Full-Stack developer</u> based in Buenos
