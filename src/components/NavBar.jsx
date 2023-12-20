@@ -11,9 +11,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
     <>
       <div className="">
         <div className="navbarContainer">
-
           <div className={darkMode ? "navbar" : "navbarLight"}>
-
             <div>
               <Link to="/" onClick={(e) => handle(e, "home")}>
                 <div
@@ -56,72 +54,16 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                 </div>
               </Link>
             </div>
-            <div>
-              <Link to="/projects" onClick={(e) => handle(e, "projects")}>
-                <div
-                  className={
-                    active === "projects"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-code-slash"></i>
-                  <p className=" m-0">Projects</p>
-                </div>
-              </Link>
-            </div>
-            <div className=" navbar__link">
-              <Link to="/education" onClick={(e) => handle(e, "education")}>
-                <div
-                  className={
-                    active === "education"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-book"></i>
-                  <p className=" m-0">Education</p>
-                </div>
-              </Link>
-            </div>
-            {/* <div className=" navbar__link">
-              <Link to="/contact" onClick={(e) => handle(e, "contact")}>
-                <div
-                  className={
-                    active === "contact"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-person-lines-fill navbar__link__logo"></i>
-                  <p className="navbar__text m-0">Contact</p>
-                </div>
-              </Link>
-            </div> */}
           </div>
-          <div className="darkMode" onClick={toggleMode}>
+          <div className="darkMode" onClick={() => setDarkMode(!darkMode)}>
             <i
               className={
-                mode === "dark"
+                darkMode
                   ? "bi bi-moon darkMode__logo"
                   : " bi bi-sun darkMode__logo"
               }
             ></i>
           </div>
-
-          <div
-            className={darkMode ? "darkMode" : "lightMode"}
-            onClick={() => setDarkMode(!darkMode)}
-          >
-            <i
-              className={
-                !darkMode
-                  ? "bi bi-moon darkMode__logo"
-                  : " bi bi-sun darkMode__logo"
-              }
-            ></i>
-          </div>
-
         </div>
       </div>
     </>
