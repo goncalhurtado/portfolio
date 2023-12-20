@@ -11,7 +11,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
     <>
       <div className="">
         <div className="navbarContainer">
-          <div className="navbar">
+          <div className={darkMode ? "navbar" : "navbarLight"}>
             <div>
               <Link to="/" onClick={(e) => handle(e, "home")}>
                 <div
@@ -54,22 +54,11 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                 </div>
               </Link>
             </div>
-            {/* <div className=" navbar__link">
-              <Link to="/contact" onClick={(e) => handle(e, "contact")}>
-                <div
-                  className={
-                    active === "contact"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-person-lines-fill navbar__link__logo"></i>
-                  <p className="navbar__text m-0">Contact</p>
-                </div>
-              </Link>
-            </div> */}
           </div>
-          <div className="darkMode" onClick={() => setDarkMode(!darkMode)}>
+          <div
+            className={darkMode ? "darkMode" : "lightMode"}
+            onClick={() => setDarkMode(!darkMode)}
+          >
             <i
               className={
                 !darkMode

@@ -1,7 +1,20 @@
-:root {
-    .card {
-        background-color: $background;
-        border-radius: 20px;
-        padding: 10px;
+.card {
+    background-color: $background;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cardLight {
+    padding: 26px !important;
+    border-radius: 20px;
+    background: $backgroundLight !important;
+    color: $textLight !important;
+
+    .cardbody {
+        padding: 16px;
+    }
+
+    * {
+        color: $textLight !important;
     }
 }

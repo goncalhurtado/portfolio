@@ -13,9 +13,9 @@ function App() {
 
   useEffect(() => {
     if (!darkMode) {
-      document.body.classList.add("light");
+      document.body.classList.add("animated-backgroundLight");
     } else {
-      document.body.classList.remove("light");
+      document.body.classList.remove("animated-backgroundLight");
     }
   }, [darkMode]);
 
@@ -37,7 +37,7 @@ function App() {
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home darkMode={darkMode} />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/education" element={<Education />} />
