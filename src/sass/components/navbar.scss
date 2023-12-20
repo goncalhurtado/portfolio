@@ -17,6 +17,7 @@ a {
         display: flex;
         align-items: center;
 
+
         &__link {
             text-align: center;
             width: 130px;
@@ -93,14 +94,15 @@ a {
                 color: $textLight;
                 font-weight: bold;
             }
-
             border-radius: 10px;
         }
     }
 
+
     .lightMode {
         background-color: $backgroundLight;
         color: $textLight;
+
         border-radius: 15px;
         width: 10%;
         display: flex;
@@ -108,33 +110,11 @@ a {
         align-items: center;
         cursor: pointer;
 
+
         .darkMode__logo {
             color: $textLight;
+
             font-size: 20px;
         }
     }
 }
-
-// @media (max-width: 1200px) {
-//     .navbar {
-//         // max-width: 100vh !important;
-//         display: flex !important;
-//         width: 100%;
-//         border-radius: 15px;
-//         &__link {
-//             width: 70px;
-//         }
-//         &__text {
-//             color: $text;
-//             font-size: small;
-//         }
-//     }
-//     .navSm {
-//         width: 100%;
-//         display: flex !important;
-//     }
-//     .darkMode {
-//         position: absolute;
-//         transform: scale(0);
-//     }
-// }

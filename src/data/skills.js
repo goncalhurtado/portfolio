@@ -1,7 +1,9 @@
 export const frontEndSkills = [{
         name: "HTML",
         icon: "https://skillicons.dev/icons?i=html",
+
         iconLight: "https://skillicons.dev/icons?i=html&theme=light",
+
     },
     {
         name: "CSS3",
@@ -12,11 +14,13 @@ export const frontEndSkills = [{
         name: "Sass",
         icon: "https://skillicons.dev/icons?i=sass",
         iconLight: "https://skillicons.dev/icons?i=sass&theme=light",
+
     },
     {
         name: "Javascript",
         icon: "https://skillicons.dev/icons?i=js",
         iconLight: "https://skillicons.dev/icons?i=js&theme=light",
+
     },
     {
         name: "ReactJs",
@@ -27,6 +31,12 @@ export const frontEndSkills = [{
         name: "Vite",
         icon: "https://skillicons.dev/icons?i=vite",
         iconLight: "https://skillicons.dev/icons?i=vite&theme=light"
+
+    },
+    {
+        name: "Bootstrap",
+        icon: "https://skillicons.dev/icons?i=bootstrap",
+       iconLight: "https://skillicons.dev/icons?i=bootstrap&theme=light"
     },
     {
         name: "MaterialUi",
@@ -43,12 +53,17 @@ export const frontEndSkills = [{
         icon: "https://skillicons.dev/icons?i=tailwindcss",
         iconLight: "https://skillicons.dev/icons?i=tailwindcss&theme=light"
     }
-
+    },
+    {
+        name: "Sass",
+        icon: "https://skillicons.dev/icons?i=sass",
+    }
 ];
 
 export const backEndSkills = [{
         name: "MongoDB",
         icon: "https://skillicons.dev/icons?i=mongodb",
+
         iconLight: "https://skillicons.dev/icons?i=mongodb&theme=light",
     },
     {
@@ -61,6 +76,8 @@ export const backEndSkills = [{
         name: "Express",
         icon: "https://skillicons.dev/icons?i=express",
         iconLight: "https://skillicons.dev/icons?i=express&theme=light",
+
+
     },
     {
         name: "NodeJs",
@@ -73,6 +90,11 @@ export const backEndSkills = [{
         iconLight: "https://static-00.iconduck.com/assets.00/nodemon-icon-1800x2048-cec0ndk1.png",
     }
 
+    },
+    {
+        name: "Postman",
+        icon: "https://skillicons.dev/icons?i=postman",
+    }
 ];
 
 export const otherTools = [{
@@ -89,6 +111,11 @@ export const otherTools = [{
         name: "Scrum",
         icon: "https://seeklogo.com/images/B/brain-logo-085FB58CDA-seeklogo.com.png",
         iconLight: "https://seeklogo.com/images/B/brain-logo-085FB58CDA-seeklogo.com.png",
+    },
+
+    {
+        name: "Scrum",
+        icon: "https://seeklogo.com/images/B/brain-logo-085FB58CDA-seeklogo.com.png",
     },
     {
         name: "Trello",

@@ -2,15 +2,18 @@ import React from "react";
 
 const GoncalCard = ({ darkMode }) => {
   return (
+
     <div className={`ContGoncal text${!darkMode ? "Light" : "Dark"}`}>
       <img
         src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702944689/portfolio-Goncal/perfil_slack_kawow7.jpg"
         alt="imagen"
       />
       <div className="contInfo">
+
         <h1 className={darkMode ? "contInfo__name" : "contInfo__nameLight"}>
           Gonzalo Hurtado
         </h1>
+
         <h2 className="contInfo__dev">Front End Developer</h2>
         <hr />
         <h2 className="contInfo__dev">Contact me</h2>
