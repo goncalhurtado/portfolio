@@ -6,8 +6,19 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+
+  useEffect(() => {
+    if (!darkMode) {
+      document.body.classList.add("light");
+    } else {
+      document.body.classList.remove("light");
+    }
+  }, [darkMode]);
+
   return (
     <div className="containerApp">
       {/* <div className="row mb-4">
@@ -23,7 +34,7 @@ function App() {
         <div className="col-lg-9 col-sm-12">
           <div className="mb-3">
             {" "}
-            <NavBar />
+            <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
           <Routes>
             <Route path="/" element={<Home />} />

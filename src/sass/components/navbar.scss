@@ -24,11 +24,11 @@ a {
             gap: 5px;
 
             p {
-                color: $text-secondary !important;
+                color: $text-secondary;
             }
 
             i {
-                color: $text-secondary !important;
+                color: $text-secondary;
             }
         }
 
@@ -36,11 +36,11 @@ a {
 
             // color: $text;
             p {
-                color: $text !important;
+                color: $text;
             }
 
             i {
-                color: $text !important;
+                color: $text;
             }
 
             // background-color: $secondary;

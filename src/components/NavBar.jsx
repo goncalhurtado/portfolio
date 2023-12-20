@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ darkMode, setDarkMode }) => {
   const [active, setActive] = useState("home");
-  const [mode, setMode] = useState("dark");
-  const toggleMode = () => {
-    setMode((prevMode) => (prevMode === "dark" ? "light" : "dark"));
-  };
   const handle = (e, link) => {
     setActive(link);
   };
@@ -73,10 +69,10 @@ const NavBar = () => {
               </Link>
             </div> */}
           </div>
-          <div className="darkMode" onClick={toggleMode}>
+          <div className="darkMode" onClick={() => setDarkMode(!darkMode)}>
             <i
               className={
-                mode === "dark"
+                !darkMode
                   ? "bi bi-moon darkMode__logo"
                   : " bi bi-sun darkMode__logo"
               }
