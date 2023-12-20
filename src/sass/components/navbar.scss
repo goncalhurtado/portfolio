@@ -15,35 +15,36 @@ a {
         height: 70px;
         margin-right: 10px;
         display: flex;
+        align-items: center;
+
 
         &__link {
             text-align: center;
             width: 130px;
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 5px;
 
             p {
-                color: $text-secondary !important;
+                color: $text-secondary;
             }
 
             i {
-                color: $text-secondary !important;
+                color: $text-secondary;
+                margin-bottom: 4px;
             }
         }
 
         .activeLink {
-
-            // color: $text;
             p {
-                color: $text !important;
+                color: $text;
             }
 
             i {
-                color: $text !important;
+                color: $text;
             }
 
-            // background-color: $secondary;
             border-radius: 10px;
         }
     }
@@ -61,28 +62,59 @@ a {
             font-size: 20px;
         }
     }
-}
 
-// @media (max-width: 1200px) {
-//     .navbar {
-//         // max-width: 100vh !important;
-//         display: flex !important;
-//         width: 100%;
-//         border-radius: 15px;
-//         &__link {
-//             width: 70px;
-//         }
-//         &__text {
-//             color: $text;
-//             font-size: small;
-//         }
-//     }
-//     .navSm {
-//         width: 100%;
-//         display: flex !important;
-//     }
-//     .darkMode {
-//         position: absolute;
-//         transform: scale(0);
-//     }
-// }
+    .navbarLight {
+        background-color: $backgroundLight;
+        border-radius: 15px;
+        justify-content: center;
+        width: 90% !important;
+        height: 70px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+
+        &__link {
+            p {
+                color: $textLight;
+            }
+
+            i {
+                color: $textLight;
+                margin-bottom: 4px;
+            }
+        }
+
+        .activeLink {
+            p {
+                color: $textLight;
+                font-weight: bold;
+            }
+
+            i {
+                color: $textLight;
+                font-weight: bold;
+            }
+            border-radius: 10px;
+        }
+    }
+
+
+    .lightMode {
+        background-color: $backgroundLight;
+        color: $textLight;
+
+        border-radius: 15px;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+
+        .darkMode__logo {
+            color: $textLight;
+
+            font-size: 20px;
+        }
+    }
+}

@@ -1,33 +1,52 @@
-// @media (max-width: 500px) {
-//     .goncalImg {
-//         width: 75%;
-//     }
-//     .botoncv {
-//         width: 100%;
-//         text-wrap: nowrap;
-//     }
-//     .textName {
-//         font-size: large;
-//     }
-//     .textDev {
-//         font-size: small;
-//     }
-//     .contGoncal {
-//         margin-left: -16px !important;
-//     }
-// }
-// @media (max-width: 350px) {
-//     .botoncv {
-//         width: 100%;
-//         text-wrap: wrap;
-//     }
-//     .textName {
-//         font-size: large;
-//     }
-//     .goncalImg {
-//         width: 100%;
-//     }
-// }
+
+.textDark {
+
+    h1,
+    h2,
+    p,
+    i {
+        color: $text;
+    }
+}
+
+.textLight {
+
+    h1,
+    h2,
+    hr,
+    .mail {
+        color: $textLight;
+    }
+
+    .btnContact {
+        background-color: $background;
+    }
+
+    .btnContact:hover {
+        background-color: $primary;
+    }
+}
+
+.ContGoncal {
+    width: 100%;
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contInfo {
+        text-align: start;
+
+        &__name {
+            margin-bottom: 10px;
+        }
+
+        &__dev {
+            margin-bottom: 10px;
+        }
+
 .ContGoncal {
     width: 100%;
 
@@ -95,24 +114,51 @@
     background-color: $hover;
 }
 
-.goncalImg {
-    width: 150px;
+
+        hr {
+            margin-top: 30px !important;
+            margin-bottom: 30px !important;
+        }
+
+        .mail {
+            margin-bottom: 10px !important;
+        }
+
+
+        i {
+            font-size: 15px;
+        }
+    }
 }
 
-.logo:hover {
-    color: #e945f5;
+.btnContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    color: $text;
+    background-color: $primary;
+    width: 100%;
+    height: 100%;
+    padding: 3px 0px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    i {
+        margin-right: 5px;
+    }
+
+    p {
+        width: 50px;
+        font-size: 13px;
+        font-weight: 500;
+    }
 }
 
-.contactLogo {
-    background-color: $secondary;
-    color: $primary;
-    font-size: 20px;
-    border-radius: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+.btnContact:hover {
+    color: $text;
+    background-color: $hover;
 
-.contLogo {
-    background-color: $secondary;
-    border-radius: 100px;
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import Skills from "../components/Skills";
 
-const Home = () => {
+const Home = ({ darkMode }) => {
   return (
-    <div className="card">
+    <div className={darkMode ? "card" : "cardLight"}>
       <div className="card-body">
         <div>
           <h1 className="">Hi, Im Gonzalo</h1>
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </div>
         <div style={{ marginTop: "80px" }}>
-          <Skills />
+          <Skills darkMode={darkMode} />
         </div>
       </div>
     </div>

@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ darkMode, setDarkMode }) => {
   const [active, setActive] = useState("home");
-  const [mode, setMode] = useState("dark");
-  const toggleMode = () => {
-    setMode((prevMode) => (prevMode === "dark" ? "light" : "dark"));
-  };
   const handle = (e, link) => {
     setActive(link);
   };
@@ -15,7 +11,7 @@ const NavBar = () => {
     <>
       <div className="">
         <div className="navbarContainer">
-          <div className="navbar">
+          <div className={darkMode ? "navbar" : "navbarLight"}>
             <div>
               <Link to="/" onClick={(e) => handle(e, "home")}>
                 <div
@@ -58,25 +54,11 @@ const NavBar = () => {
                 </div>
               </Link>
             </div>
-            {/* <div className=" navbar__link">
-              <Link to="/contact" onClick={(e) => handle(e, "contact")}>
-                <div
-                  className={
-                    active === "contact"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-person-lines-fill navbar__link__logo"></i>
-                  <p className="navbar__text m-0">Contact</p>
-                </div>
-              </Link>
-            </div> */}
           </div>
-          <div className="darkMode" onClick={toggleMode}>
+          <div className="darkMode" onClick={() => setDarkMode(!darkMode)}>
             <i
               className={
-                mode === "dark"
+                darkMode
                   ? "bi bi-moon darkMode__logo"
                   : " bi bi-sun darkMode__logo"
               }
