@@ -1,12 +1,15 @@
-
 .card {
     background-color: $background;
     border-radius: 20px;
     padding: 10px;
+
+    .cardbody {
+        padding: 16px;
+    }
 }
 
 .cardLight {
-    padding: 26px !important;
+    padding: 10px;
     border-radius: 20px;
     background: $backgroundLight !important;
     color: $textLight !important;
