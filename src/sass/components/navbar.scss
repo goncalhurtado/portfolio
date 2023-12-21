@@ -17,7 +17,6 @@ a {
         display: flex;
         align-items: center;
 
-
         &__link {
             text-align: center;
             width: 130px;
@@ -94,15 +93,14 @@ a {
                 color: $textLight;
                 font-weight: bold;
             }
+
             border-radius: 10px;
         }
     }
 
-
     .lightMode {
         background-color: $backgroundLight;
         color: $textLight;
-
         border-radius: 15px;
         width: 10%;
         display: flex;
@@ -110,10 +108,8 @@ a {
         align-items: center;
         cursor: pointer;
 
-
         .darkMode__logo {
             color: $textLight;
-
             font-size: 20px;
         }
     }

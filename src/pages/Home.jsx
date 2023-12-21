@@ -4,7 +4,7 @@ import Skills from "../components/Skills";
 const Home = ({ darkMode }) => {
   return (
     <div className={darkMode ? "card" : "cardLight"}>
-      <div className="card-body">
+      <div className="cardbody">
         <div>
           <h1 className="">Hi, Im Gonzalo</h1>
           <div className="textHome">

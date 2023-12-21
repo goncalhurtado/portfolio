@@ -55,7 +55,10 @@ const NavBar = ({ darkMode, setDarkMode }) => {
               </Link>
             </div>
           </div>
-          <div className="darkMode" onClick={() => setDarkMode(!darkMode)}>
+          <div
+            className={darkMode ? "darkMode" : "lightMode"}
+            onClick={() => setDarkMode(!darkMode)}
+          >
             <i
               className={
                 darkMode

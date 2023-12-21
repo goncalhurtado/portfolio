@@ -29,21 +29,21 @@ function App() {
       </div> */}
       <div className="row">
         <div className="col-lg-3 col-sm-12 justsmmb">
-
           <GoncalCard darkMode={darkMode} />
-
         </div>
         <div className="col-lg-9 col-sm-12">
           <div className="mb-3">
             {" "}
-
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
           <Routes>
             <Route path="/" element={<Home darkMode={darkMode} />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/education" element={<Education />} />
+            <Route
+              path="/education"
+              element={<Education darkMode={darkMode} />}
+            />
           </Routes>
         </div>
       </div>
