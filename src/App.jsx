@@ -28,7 +28,7 @@ function App() {
         </div>
       </div> */}
       <div className="row">
-        <div className="col-lg-3 col-sm-12 justsmmb">
+        <div className="col-lg-3 col-sm-12 d-none d-sm-block">
           <GoncalCard darkMode={darkMode} />
         </div>
         <div className="col-lg-9 col-sm-12">
@@ -39,7 +39,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home darkMode={darkMode} />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route
+              path="/projects"
+              element={<Projects darkMode={darkMode} />}
+            />
             <Route
               path="/education"
               element={<Education darkMode={darkMode} />}

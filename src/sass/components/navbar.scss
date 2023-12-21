@@ -17,6 +17,10 @@ a {
         display: flex;
         align-items: center;
 
+        @media (max-width: 430px) {
+            width: 80% !important;
+        }
+
         &__link {
             text-align: center;
             width: 130px;
@@ -25,6 +29,13 @@ a {
             align-items: center;
             gap: 5px;
 
+            @media (max-width: 430px) {
+                display: flex;
+                flex-direction: column;
+                width: 105px;
+                gap: 1px;
+            }
+
             p {
                 color: $text-secondary;
             }
@@ -32,6 +43,10 @@ a {
             i {
                 color: $text-secondary;
                 margin-bottom: 4px;
+
+                @media (max-width: 430px) {
+                    margin-bottom: 0;
+                }
             }
         }
 
@@ -56,6 +71,10 @@ a {
         justify-content: center;
         align-items: center;
         cursor: pointer;
+
+        @media (max-width: 430px) {
+            width: 20%;
+        }
 
         &__logo {
             font-size: 20px;
@@ -107,6 +126,10 @@ a {
         justify-content: center;
         align-items: center;
         cursor: pointer;
+
+        @media (max-width: 430px) {
+            width: 20%;
+        }
 
         .darkMode__logo {
             color: $textLight;
