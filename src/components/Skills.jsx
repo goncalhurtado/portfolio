@@ -12,12 +12,10 @@ const Skills = ({ darkMode }) => {
         <div className="skills">
           {frontEndSkills.map((skill) => (
             <div className="skill" key={skill.name}>
-
               <img
                 src={darkMode ? skill.icon : skill.iconLight}
                 alt={skill.name}
               />
-
               <p className="skillName">{skill.name}</p>
             </div>
           ))}
@@ -28,12 +26,10 @@ const Skills = ({ darkMode }) => {
         <div className="skills">
           {backEndSkills.map((skill) => (
             <div className="skill" key={skill.name}>
-
               <img
                 src={darkMode ? skill.icon : skill.iconLight}
                 alt={skill.name}
               />
-
               <p className="skillName">{skill.name}</p>
             </div>
           ))}
@@ -44,7 +40,6 @@ const Skills = ({ darkMode }) => {
         <div className="skills">
           {otherTools.map((skill) => (
             <div className="skill" key={skill.name}>
-
               <img
                 src={darkMode ? skill.icon : skill.iconLight}
                 alt={skill.name}
