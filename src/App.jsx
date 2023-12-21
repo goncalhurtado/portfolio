@@ -28,7 +28,7 @@ function App() {
         </div>
       </div> */}
       <div className="row">
-        <div className="d-none d-block-sm">
+        <div className="col-lg-3 col-sm-12 d-none d-sm-block">
           <GoncalCard darkMode={darkMode} />
         </div>
         <div className="col-lg-9 col-sm-12">
