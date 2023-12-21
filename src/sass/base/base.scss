@@ -4,10 +4,9 @@
     padding: 0px;
 }
 
-.btnHover:hover {
-    background-color: #e945f5;
-}
-
+// .btnHover:hover {
+//     background-color: #e945f5;
+// }
 @keyframes move {
     100% {
         transform: translate3d(0, 0, 1px) rotate(360deg);

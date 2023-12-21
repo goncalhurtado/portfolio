@@ -7,4 +7,7 @@
 
  .containerApp {
      padding: 40px 180px;
+     @media (max-width: 768px) {
+         padding: 0px 0px;
+     }
  }

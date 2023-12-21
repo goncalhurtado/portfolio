@@ -12,20 +12,18 @@ const NavBar = ({ darkMode, setDarkMode }) => {
       <div className="">
         <div className="navbarContainer">
           <div className={darkMode ? "navbar" : "navbarLight"}>
-            <div>
-              <Link to="/" onClick={(e) => handle(e, "home")}>
-                <div
-                  className={
-                    active === "home"
-                      ? "navbar__link activeLink "
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-house-door "></i>
-                  <p className=" m-0">Home</p>
-                </div>
-              </Link>
-            </div>
+            <Link to="/" onClick={(e) => handle(e, "home")}>
+              <div
+                className={
+                  active === "home"
+                    ? "navbar__link activeLink "
+                    : "navbar__link"
+                }
+              >
+                <i className="bi bi-house-door "></i>
+                <p className=" m-0">Home</p>
+              </div>
+            </Link>
             <div>
               <Link to="/projects" onClick={(e) => handle(e, "projects")}>
                 <div
@@ -40,20 +38,18 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                 </div>
               </Link>
             </div>
-            <div className=" navbar__link">
-              <Link to="/education" onClick={(e) => handle(e, "education")}>
-                <div
-                  className={
-                    active === "education"
-                      ? "navbar__link activeLink"
-                      : "navbar__link"
-                  }
-                >
-                  <i className="bi bi-book"></i>
-                  <p className=" m-0">Education</p>
-                </div>
-              </Link>
-            </div>
+            <Link to="/education" onClick={(e) => handle(e, "education")}>
+              <div
+                className={
+                  active === "education"
+                    ? "navbar__link activeLink"
+                    : "navbar__link"
+                }
+              >
+                <i className="bi bi-book"></i>
+                <p className=" m-0">Education</p>
+              </div>
+            </Link>
           </div>
           <div
             className={darkMode ? "darkMode" : "lightMode"}
