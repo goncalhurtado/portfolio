@@ -28,10 +28,10 @@ function App() {
         </div>
       </div> */}
       <div className="row">
-        <div className="col-lg-3 col-sm-12 d-none d-sm-block">
+        <div className="col-12 col-sm-3 DnoneSm">
           <GoncalCard darkMode={darkMode} />
         </div>
-        <div className="col-lg-9 col-sm-12">
+        <div className="col-12 col-sm-9">
           <div className="mb-3">
             {" "}
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />

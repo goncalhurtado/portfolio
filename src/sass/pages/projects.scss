@@ -1,17 +1,58 @@
-.projectTech {
-    width: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
+.project {
+    height: 100%;
 
-.cursorProject {
-    cursor: pointer;
-}
+    img {
+        width: 100%;
+        // cursor: pointer;
+        margin-bottom: 10px;
+    }
 
-.projectImg {
-    width: 100%;
-}
+    h1 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
 
-// .tituloProject {
-//     color: $secondary !important;
-// }
+    &__description {
+        height: 50px;
+
+        @media (min-width: 431px) and (max-width: 768px) {
+            height: 100%;
+        }
+
+        h2 {
+            height: 50px;
+        }
+    }
+
+    .btnProject {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $primary;
+        width: 100px;
+        height: 28px;
+        padding: 3px 0px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        cursor: pointer;
+
+        i {
+            margin-right: 5px;
+            color: $text !important;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: 500;
+            color: $text !important;
+        }
+    }
+
+    .btnProject:hover {
+        color: $text;
+        background-color: $hover;
+    }
+}
