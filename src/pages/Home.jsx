@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Skills from "../components/Skills";
 
 const Home = ({ darkMode }) => {
+  const [joke, setJoke] = useState(false);
+  const handleJoke = () => handleJoke(!joke);
   return (
     <div className={darkMode ? "card" : "cardLight"}>
       <div className="cardbody">
@@ -21,8 +23,21 @@ const Home = ({ darkMode }) => {
               <b>all users can enjoy the digital experiences</b> I create{" :)"}
             </p>
             <p className="textHome__desc">
-              In my free time, I enjoy playing the piano and watching 'The
-              Office'.
+              In my free time, I enjoy playing the piano and watching
+              <span
+                onMouseOver={() => setJoke(true)}
+                onMouseOut={() => setJoke(false)}
+              >
+                {" "}
+                'The Office'.{" "}
+                {joke && (
+                  <img
+                    src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703297275/portfolio-Goncal/b7d082b9f9d780adb1b6d42ed621e676_wqfytc.png"
+                    alt="Michael Scott"
+                    className="joke"
+                  />
+                )}
+              </span>
             </p>
           </div>
         </div>

@@ -57,7 +57,7 @@ export const backEndSkills = [{
         iconLight: "https://skillicons.dev/icons?i=mongodb&theme=light",
     },
     {
-        name: "Moongose",
+        name: "Mongoose",
         icon: "https://avatars.githubusercontent.com/u/7552965?s=400&v=4",
         iconLight: "https://avatars.githubusercontent.com/u/7552965?s=400&v=4",
 

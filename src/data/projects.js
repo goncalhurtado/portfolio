@@ -1,14 +1,3 @@
-let html = "https://skillicons.dev/icons?i=html";
-let css = "https://skillicons.dev/icons?i=css";
-let javascript = "https://skillicons.dev/icons?i=js";
-let reactJs = "https://skillicons.dev/icons?i=react";
-let bootstrap = "https://skillicons.dev/icons?i=bootstrap"
-let materialUi = "https://skillicons.dev/icons?i=materialui";
-let sass = "https://skillicons.dev/icons?i=sass";
-
-
-
-
 export const projectsData = [
     //
     // {
@@ -28,7 +17,7 @@ export const projectsData = [
         "github": "https://github.com/goncalhurtado/qr-generator",
     },
     {
-        "title": "Product Designer's Personalized Portfolio",
+        "title": "Product Designer's Portfolio",
         "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703195769/portfolio-Goncal/porfolio_tili_cpmelt.png",
         "description": "A portfolio for a senior product designer Lu Diaz Spolita.",
         "technologies": ["ReactJs", "Scss", "Bootstrap"],
@@ -55,9 +44,17 @@ export const projectsData = [
         "title": "Datamath Calculator",
         "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703266104/portfolio-Goncal/data_calculator_mcidys.png",
         "description": "Functional calculator based on the iconic DataMatch Electronic Calculator 2500",
-        "technologies": ["ReactJS", "Javascript", "Css"],
+        "technologies": ["ReactJs", "Javascript", "Css"],
         "url": "datamath2.netlify.app",
         "github": "https://github.com/goncalhurtado/calculator",
+    },
+    {
+        "title": "Slot Machine",
+        "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703612473/portfolio-Goncal/slotmachine_1_lcqcbp.png",
+        "description": "Emulates the gameplay of a classic casino slot machine.",
+        "technologies": ["ReactJs", "Javascript", "Scss"],
+        "url": "https://react-slot-machine.netlify.app/",
+        "github": "https://github.com/goncalhurtado/slot-machine-game",
     },
 
     // {

@@ -1,10 +1,18 @@
 import React from "react";
 
 const GoncalCard = ({ darkMode }) => {
+  const linkedin =
+    "https://www.linkedin.com/in/gonzalo-javier-hurtado-1bba76284/";
+  const github = "https://github.com/goncalhurtado";
+  const handle = (e, url) => {
+    e.preventDefault();
+    window.open(url, "_blank");
+  };
+
   return (
     <div className={`ContGoncal text${!darkMode ? "Light" : "Dark"}`}>
       <img
-        src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702944689/portfolio-Goncal/perfil_slack_kawow7.jpg"
+        src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1704319164/portfolio-Goncal/goncal_foto_de_perfil_comp_wk0inu.png"
         alt="imagen"
       />
       <div className="contInfo">
@@ -14,11 +22,11 @@ const GoncalCard = ({ darkMode }) => {
         <hr />
         <h2 className="contInfo__dev">Contact me</h2>
         <p className="m-0 mail">goncalhurtado@gmail.com</p>
-        <div className="btnContact">
+        <div className="btnContact" onClick={(e) => handle(e, github)}>
           <i className="bi bi-github"></i>
           <p className="m-0">Github</p>
         </div>
-        <div className="btnContact">
+        <div className="btnContact" onClick={(e) => handle(e, linkedin)}>
           <i className="bi bi-linkedin"></i>
           <p className="m-0">Linkedin</p>
         </div>
