@@ -4,15 +4,15 @@
 }
 
 body {
+    background-color: #e7cdf3;
     height: 100vh !important;
     padding: 5px;
 }
 
 .animated-background {
-    body {
-        background-color: #521C6C;
-    }
-
+    // body {
+    //     background-color: #521C6C;
+    // }
     background: radial-gradient(circle, #521C6C 0%, #1E1E1E 100%);
     background-size: 400% 400%;
     animation: gradient 6s ease infinite;
@@ -33,10 +33,9 @@ body {
 }
 
 .animated-backgroundLight {
-    body {
-        background-color: #e7cdf3;
-    }
-
+    // body {
+    //     background-color: #e7cdf3;
+    // }
     background: radial-gradient(circle, #e7cdf3 0%, #d48bf5 100%);
     // background: radial-gradient(circle, #9556b3 0%, #d9a2f3 100%);
     background-size: 400% 400%;

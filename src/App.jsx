@@ -31,8 +31,8 @@ function App() {
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
           <Routes>
-            <Route path="/" element={<Home darkMode={darkMode} />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/*" element={<Home darkMode={darkMode} />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
             <Route
               path="/projects"
               element={<Projects darkMode={darkMode} />}
