@@ -8,7 +8,7 @@ const Home = ({ darkMode }) => {
     <div className={darkMode ? "card" : "cardLight"}>
       <div className="cardbody">
         <div>
-          <h1 className="">Hi, Im Gonzalo</h1>
+          <h1 className="">Hi, Im Goncal</h1>
           <div className="textHome">
             <p className="textHome__main pImportant">
               I'm 24 years old <u>Full-Stack developer</u> based in Buenos
