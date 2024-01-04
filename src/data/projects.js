@@ -11,7 +11,7 @@ export const projectsData = [
     {
         "title": "Qr Generator",
         "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703195296/portfolio-Goncal/generador_de_Qr_wcm2hm.png",
-        "description": "QR code generator for WhatsApp links, email, and regular URLs, allowing customization of the QR code colors.",
+        "description": "QR code generator for WhatsApp links, email, and regular URLs, allowing customization of the QR.",
         "technologies": ["ReactJs", "MaterialUi", "Css", "Javascript"],
         "url": "https://generador-de-qr.netlify.app/",
         "github": "https://github.com/goncalhurtado/qr-generator",

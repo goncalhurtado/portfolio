@@ -1,8 +1,7 @@
 import React from "react";
 
 const GoncalCard = ({ darkMode }) => {
-  const linkedin =
-    "https://www.linkedin.com/in/gonzalo-javier-hurtado-1bba76284/";
+  const linkedin = "https://www.linkedin.com/in/goncalhurtado/";
   const github = "https://github.com/goncalhurtado";
   const handle = (e, url) => {
     e.preventDefault();

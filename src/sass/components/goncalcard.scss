@@ -15,14 +15,8 @@
     hr,
     .mail {
         color: $textLight;
+        width: 100%;
     }
-
-    // .btnContact {
-    //     background-color: $background;
-    // }
-    // .btnContact:hover {
-    //     background-color: $primary;
-    // }
 }
 
 .ContGoncal {
@@ -52,6 +46,14 @@
 
         .mail {
             margin-bottom: 10px !important;
+
+            @media (min-width: 431px) and (max-width: 768px) {
+                font-size: 12px !important;
+            }
+
+            h2 {
+                height: 50px;
+            }
         }
 
         i {
