@@ -21,12 +21,6 @@ function App() {
 
   return (
     <div className="containerApp">
-      {/* <div className="row mb-4">
-        <div className="col-lg-4 col-sm-12"></div>
-        <div className="col-lg-8 col-sm-12">
-
-        </div>
-      </div> */}
       <div className="row">
         <div className="col-12 col-sm-3 DnoneSm">
           <GoncalCard darkMode={darkMode} />
