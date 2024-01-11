@@ -41,8 +41,8 @@ const GoncalCard = ({ darkMode }) => {
             </a>
             <a
               className="btnContact"
-              href="./CV Gonzalo Hurtado.pdf"
-              download="CV Gonzalo Hurtado.pdf"
+              href="https://drive.google.com/uc?export=download&id=1AAEwEe2PQ0nDxjtOXiCVmrQqceLf7kaw"
+              download=""
             >
               <i className="bi bi-file-earmark-person"></i>
               <p className="m-0 ">Download Resume</p>
@@ -54,7 +54,7 @@ const GoncalCard = ({ darkMode }) => {
         <div>
           <a
             className="btnContact resume"
-            href="Cv Goncal Hurtado.pdf"
+            href="https://drive.google.com/uc?export=download&id=1AAEwEe2PQ0nDxjtOXiCVmrQqceLf7kaw"
             download
           >
             <i className="bi bi-file-earmark-person"></i>
