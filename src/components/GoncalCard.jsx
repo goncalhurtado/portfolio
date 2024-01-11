@@ -23,40 +23,52 @@ const GoncalCard = ({ darkMode }) => {
           <h2 className="contInfo__dev">Contact me</h2>
           <p className="m-0 mail">goncalhurtado@gmail.com</p>
           <div className="DnoneSm">
-            <div className="btnContact" onClick={(e) => handle(e, github)}>
+            <a
+              className="btnContact"
+              href="https://github.com/goncalhurtado"
+              target="_blank"
+            >
               <i className="bi bi-github"></i>
               <p className="m-0">Github</p>
-            </div>
-            <div className="btnContact" onClick={(e) => handle(e, linkedin)}>
+            </a>
+            <a
+              className="btnContact"
+              href="https://www.linkedin.com/in/goncalhurtado/"
+              target="_blank"
+            >
               <i className="bi bi-linkedin"></i>
               <p className="m-0">Linkedin</p>
-            </div>
-            <div className="btnContact">
+            </a>
+            <a className="btnContact" href="Cv Goncal Hurtado.pdf" download>
               <i className="bi bi-file-earmark-person"></i>
               <p className="m-0 ">Download Resume</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
       <div className="DblockSm">
         <div>
-          <div className="btnContact resume">
+          <a
+            className="btnContact resume"
+            href="Cv Goncal Hurtado.pdf"
+            download
+          >
             <i className="bi bi-file-earmark-person"></i>
             <p className="m-0  ms-2">Download Resume</p>
-          </div>
+          </a>
         </div>
         <div className="d-flex flex-row">
-          <div className="btnContact github" onClick={(e) => handle(e, github)}>
+          <a className="btnContact github" onClick={(e) => handle(e, github)}>
             <i className="bi bi-github"></i>
             <p className="m-0 ms-1">Github</p>
-          </div>
-          <div
+          </a>
+          <a
             className="btnContact linkedin"
             onClick={(e) => handle(e, linkedin)}
           >
             <i className="bi bi-linkedin"></i>
             <p className="m-0 ms-2">Linkedin</p>
-          </div>
+          </a>
         </div>
       </div>
     </>
