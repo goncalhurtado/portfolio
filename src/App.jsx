@@ -1,12 +1,11 @@
-import "./App.css";
-import NavBar from "./components/NavBar";
-import GoncalCard from "./components/GoncalCard";
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import GoncalCard from "./components/GoncalCard";
+import NavBar from "./components/NavBar";
+import Education from "./pages/Education";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Education from "./pages/Education";
-import { useEffect, useState } from "react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -30,6 +29,7 @@ function App() {
             {" "}
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
+
           <Routes>
             <Route path="/*" element={<Home darkMode={darkMode} />} />
             {/* <Route path="/contact" element={<Contact />} /> */}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Skills from "../components/Skills";
+import GoncalCard from "../components/GoncalCard";
 
 const Home = ({ darkMode }) => {
   const [joke, setJoke] = useState(false);
@@ -7,6 +8,9 @@ const Home = ({ darkMode }) => {
   return (
     <div className={darkMode ? "card" : "cardLight"}>
       <div className="cardbody">
+        <div className="col-12 col-sm-3 DblockSm">
+          <GoncalCard darkMode={darkMode} />
+        </div>
         <div>
           <h1 className="">Hi, Im Goncal</h1>
           <div className="textHome">

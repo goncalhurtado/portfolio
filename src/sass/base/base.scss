@@ -15,3 +15,11 @@
         display: none;
     }
 }
+
+.DblockSm {
+    display: block;
+
+    @media (min-width: 431px) {
+        display: none;
+    }
+}
