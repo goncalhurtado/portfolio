@@ -15,7 +15,7 @@ const Home = ({ darkMode }) => {
           <h1 className="">Hi, Im Goncal</h1>
           <div className="textHome">
             <p className="textHome__main pImportant">
-              I'm 24 years old <u>Full-Stack developer</u> based in Buenos
+              I'm 25 years old <u>Full-Stack developer</u> based in Buenos
               Aires.
             </p>
             <p className="textHome__desc">

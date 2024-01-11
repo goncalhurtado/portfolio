@@ -16,19 +16,46 @@ const Projects = ({ darkMode }) => {
                   <img className="" src={data.img} alt="" />
                   <span>
                     <div className="d-flex">
-                      <div
-                        className="btnProject"
-                        onClick={(e) => handle(e, data.url)}
-                      >
-                        <p className="m-0">Visit</p>
-                      </div>
-                      <div
-                        className="btnProject"
-                        onClick={(e) => handle(e, data.github)}
-                      >
-                        <i class="bi bi-github"></i>
-                        <p className="m-0">Github</p>
-                      </div>
+                      {!data.fullstack ? (
+                        <>
+                          <div
+                            className="btnProject"
+                            onClick={(e) => handle(e, data.url)}
+                          >
+                            <p className="m-0">Visit</p>
+                          </div>
+                          <div
+                            className="btnProject"
+                            onClick={(e) => handle(e, data.github)}
+                          >
+                            <i class="bi bi-github"></i>
+                            <p className="m-0">Github</p>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div
+                            className="btnProjectFull"
+                            onClick={(e) => handle(e, data.url)}
+                          >
+                            <p className="m-0">Visit</p>
+                          </div>
+                          <div
+                            className="btnProjectFull"
+                            onClick={(e) => handle(e, data.github)}
+                          >
+                            <i class="bi bi-github"></i>
+                            <p className="m-0">Front</p>
+                          </div>
+                          <div
+                            className="btnProjectFull"
+                            onClick={(e) => handle(e, data.githubBack)}
+                          >
+                            <i class="bi bi-github"></i>
+                            <p className="m-0">Back</p>
+                          </div>
+                        </>
+                      )}
                     </div>
                   </span>
                 </div>
@@ -47,19 +74,48 @@ const Projects = ({ darkMode }) => {
                   })}
                 </p>
                 <div className="d-flex">
-                  <div
-                    className="btnProjectSm"
-                    onClick={(e) => handle(e, data.url)}
-                  >
-                    <p className="m-0">Visit</p>
-                  </div>
-                  <div
-                    className="btnProjectSm"
-                    onClick={(e) => handle(e, data.github)}
-                  >
-                    <i class="bi bi-github"></i>
-                    <p className="m-0">Github</p>
-                  </div>
+                  {!data.fullstack ? (
+                    <>
+                      {" "}
+                      <div
+                        className="btnProjectSm"
+                        onClick={(e) => handle(e, data.url)}
+                      >
+                        <p className="m-0">Visit</p>
+                      </div>
+                      <div
+                        className="btnProjectSm"
+                        onClick={(e) => handle(e, data.github)}
+                      >
+                        <i class="bi bi-github"></i>
+                        <p className="m-0">Github</p>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      {" "}
+                      <div
+                        className="btnProjectSm"
+                        onClick={(e) => handle(e, data.url)}
+                      >
+                        <p className="m-0">Visit</p>
+                      </div>
+                      <div
+                        className="btnProjectSm"
+                        onClick={(e) => handle(e, data.github)}
+                      >
+                        <i class="bi bi-github"></i>
+                        <p className="m-0">Front</p>
+                      </div>
+                      <div
+                        className="btnProjectSm"
+                        onClick={(e) => handle(e, data.githubBack)}
+                      >
+                        <i class="bi bi-github"></i>
+                        <p className="m-0">Back</p>
+                      </div>
+                    </>
+                  )}
                 </div>
                 <hr />
               </div>
