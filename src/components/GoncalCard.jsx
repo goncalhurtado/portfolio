@@ -39,6 +39,12 @@ const GoncalCard = ({ darkMode }) => {
         </div>
       </div>
       <div className="DblockSm">
+        <div>
+          <div className="btnContact resume">
+            <i className="bi bi-file-earmark-person"></i>
+            <p className="m-0  ms-2">Download Resume</p>
+          </div>
+        </div>
         <div className="d-flex flex-row">
           <div className="btnContact github" onClick={(e) => handle(e, github)}>
             <i className="bi bi-github"></i>
@@ -50,12 +56,6 @@ const GoncalCard = ({ darkMode }) => {
           >
             <i className="bi bi-linkedin"></i>
             <p className="m-0 ms-2">Linkedin</p>
-          </div>
-        </div>
-        <div>
-          <div className="btnContact resume">
-            <i className="bi bi-file-earmark-person"></i>
-            <p className="m-0  ms-2">Download Resume</p>
           </div>
         </div>
       </div>
