@@ -22,14 +22,28 @@
 .ContGoncal {
     width: 100%;
 
+    @media (max-width: 431px) {
+        display: flex;
+    }
+
     img {
         width: 100%;
+
+        @media (max-width: 431px) {
+            width: 50%;
+            height: 100%;
+        }
+
         border-radius: 20px;
         margin-bottom: 10px;
     }
 
     .contInfo {
         text-align: start;
+
+        @media (max-width: 431px) {
+            margin-left: 10px;
+        }
 
         &__name {
             margin-bottom: 10px;
@@ -42,6 +56,11 @@
         hr {
             margin-top: 30px !important;
             margin-bottom: 30px !important;
+
+            @media (max-width: 431px) {
+                margin-top: 15px !important;
+                margin-bottom: 15px !important;
+            }
         }
 
         .mail {
@@ -49,6 +68,10 @@
 
             @media (min-width: 431px) and (max-width: 768px) {
                 font-size: 12px !important;
+            }
+
+            @media (max-width: 431px) {
+                font-size: 11px !important;
             }
 
             h2 {
@@ -78,18 +101,47 @@
     margin-bottom: 10px;
     cursor: pointer;
 
+    @media (max-width: 431px) {
+        text-align: center;
+        padding: 5px;
+    }
+
     i {
         margin-right: 5px;
+
+        @media (max-width: 431px) {
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     p {
         width: 50px;
         font-size: 13px;
         font-weight: 500;
+
+        @media (max-width: 431px) {
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
 .btnContact:hover {
     color: $text;
     background-color: $hover;
+}
+
+.github {
+    width: 50%;
+    margin-right: 2px;
+}
+
+.linkedin {
+    width: 50%;
+    margin-left: 2px;
 }
