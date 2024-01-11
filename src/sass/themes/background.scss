@@ -10,10 +10,10 @@ body {
 }
 
 .animated-background {
-    // body {
-    //     background-color: #521C6C;
-    // }
-    // background: radial-gradient(circle, #521C6C 0%, #1E1E1E 100%);
+    body {
+        background-color: #231942;
+    }
+
     background: radial-gradient(circle, #410a48 0%, #231942 100%);
     background-size: 400% 400%;
     animation: gradient 6s ease infinite;
@@ -34,11 +34,11 @@ body {
 }
 
 .animated-backgroundLight {
-    // body {
-    //     background-color: #e7cdf3;
-    // }
+    body {
+        background-color: #d48bf5;
+    }
+
     background: radial-gradient(circle, #e7cdf3 0%, #d48bf5 100%);
-    // background: radial-gradient(circle, #9556b3 0%, #d9a2f3 100%);
     background-size: 400% 400%;
     animation: gradient 6s ease infinite;
 }
