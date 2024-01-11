@@ -45,7 +45,7 @@ const Home = ({ darkMode }) => {
             </p>
           </div>
         </div>
-        <div style={{ marginTop: "80px" }}>
+        <div className="separadorTop">
           <Skills darkMode={darkMode} />
         </div>
       </div>
