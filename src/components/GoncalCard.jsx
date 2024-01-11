@@ -39,7 +39,11 @@ const GoncalCard = ({ darkMode }) => {
               <i className="bi bi-linkedin"></i>
               <p className="m-0">Linkedin</p>
             </a>
-            <a className="btnContact" href="/CV Gonzalo Hurtado.pdf" download>
+            <a
+              className="btnContact"
+              href="./CV Gonzalo Hurtado.pdf"
+              download="CV Gonzalo Hurtado.pdf"
+            >
               <i className="bi bi-file-earmark-person"></i>
               <p className="m-0 ">Download Resume</p>
             </a>
