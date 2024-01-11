@@ -12,11 +12,4 @@ export const education = [{
         date: "",
         icon: "bi-speaker fs-4 educationLogo",
     },
-    // {
-    //     title: "Introduction to Web Accessibility",
-    //     institution: "The World Wide Web Consortium (W3C)",
-    //     status: "In Progress",
-    //     date: "",
-    //     icon: "bi-universal-access-circle fs-4 educationLogo",
-    // },
 ]

@@ -141,3 +141,34 @@
     color: $text;
     background-color: $hover;
 }
+
+.btnProjectFull {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary;
+    width: 80px;
+    height: 28px;
+    padding: 3px 0px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+
+    i {
+        margin-right: 5px;
+        color: $text !important;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 500;
+        color: $text !important;
+    }
+}
+
+.btnProjectFull:hover {
+    color: $text;
+    background-color: $hover;
+}

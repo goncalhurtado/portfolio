@@ -33,7 +33,7 @@ const GoncalCard = ({ darkMode }) => {
             </div>
             <div className="btnContact">
               <i className="bi bi-file-earmark-person"></i>
-              <p className="m-0 ">Resume</p>
+              <p className="m-0 ">Download Resume</p>
             </div>
           </div>
         </div>

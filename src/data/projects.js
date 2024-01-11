@@ -9,12 +9,23 @@ export const projectsData = [
     //     "github": "",
     // },
     {
+        "title": "Hotel Software",
+        "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1704935193/portfolio-Goncal/hotel_goncal_1_qkrqmt.png",
+        "description": "Full-stack project. You can make reservations, with automatic email notifications, and admin functions.",
+        "technologies": ["ReactJs", "MaterialUi", "MongoDB", "NodeJs", "ExpressJs"],
+        "url": "https://hotel-goncal.netlify.app/",
+        "github": "https://github.com/goncalhurtado/hotel-software",
+        "githubBack": "https://github.com/goncalhurtado/hotel-software-backend",
+        "fullstack": true,
+    },
+    {
         "title": "Qr Generator",
         "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703195296/portfolio-Goncal/generador_de_Qr_wcm2hm.png",
         "description": "QR code generator for WhatsApp links, email, and regular URLs, allowing customization of the QR.",
         "technologies": ["ReactJs", "MaterialUi", "Css", "Javascript"],
         "url": "https://generador-de-qr.netlify.app/",
         "github": "https://github.com/goncalhurtado/qr-generator",
+        "fullstack": false
     },
     {
         "title": "Product Designer's Portfolio",
@@ -23,6 +34,7 @@ export const projectsData = [
         "technologies": ["ReactJs", "Scss", "Bootstrap"],
         "url": "https://tilininia.netlify.app/",
         "github": "https://github.com/goncalhurtado/lucila-portfolio",
+        "fullstack": false
     },
     {
         "title": "Music streaming page",
@@ -31,6 +43,7 @@ export const projectsData = [
         "technologies": ["Html", "Css", "Javascript"],
         "url": "https://pinkify-music.netlify.app/",
         "github": "https://github.com/goncalhurtado/pinkify-finalmodulo2",
+        "fullstack": false
     },
     {
         "title": "Color Notepad",
@@ -39,6 +52,7 @@ export const projectsData = [
         "technologies": ["ReactJs", "Javascript", "Bootstrap", "Scss"],
         "url": "https://color-notepad.netlify.app/",
         "github": "https://github.com/goncalhurtado/notepad-vox",
+        "fullstack": false
     },
     {
         "title": "Datamath Calculator",
@@ -47,6 +61,7 @@ export const projectsData = [
         "technologies": ["ReactJs", "Javascript", "Css"],
         "url": "datamath2.netlify.app",
         "github": "https://github.com/goncalhurtado/calculator",
+        "fullstack": false
     },
     {
         "title": "Slot Machine",
@@ -55,52 +70,6 @@ export const projectsData = [
         "technologies": ["ReactJs", "Javascript", "Scss"],
         "url": "https://react-slot-machine.netlify.app/",
         "github": "https://github.com/goncalhurtado/slot-machine-game",
+        "fullstack": false
     },
-
-    // {
-    //     id: 1,
-    //     title: "Severus Market",
-    //     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1695953401/portfolio-Goncal/coin_nk1jf3.png",
-    //     description: "Coin Market Clone",
-    //     technologies: [reactJs, bootstrap, sass],
-    //     url: "https://www.google.com/?hl=es",
-    //     github: "",
-    // },
-
-    // {
-    //     id: 3,
-    //     title: "Rick and Morty App",
-    //     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1695953401/portfolio-Goncal/coin_nk1jf3.png",
-    //     description: "Character searcher for Rick and Morty from an API",
-    //     technologies: [reactJs, materialUi, sass],
-    //     url: "https://www.google.com/?hl=es",
-    //     github: "",
-    // },
-    // {
-    //     id: 4,
-    //     title: "",
-    //     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1695953401/portfolio-Goncal/coin_nk1jf3.png",
-    //     description: "Functional calculator based on the iconic DataMatch Electronic Calculator 2500",
-    //     technologies: [reactJs, Javascritp, sass],
-    //     url: "datamath2.netlify.app",
-    //     github: "",
-    // },
-    // {
-    //     id: 5,
-    //     title: "El Ahorcado",
-    //     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1695953401/portfolio-Goncal/coin_nk1jf3.png",
-    //     description: "New version of classic web app game on spanish",
-    //     technologies: [reactJs, bootstrap, sass],
-    //     url: "https://www.google.com/?hl=es",
-    //     github: "",
-    // },
-    // {
-    //     id: 6,
-    //     title: "NotePad-Vox",
-    //     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1695953401/portfolio-Goncal/coin_nk1jf3.png",
-    //     description: "A NotePad app",
-    //     technologies: [reactJs, bootstrap, sass],
-    //     url: "https://www.google.com/?hl=es",
-    //     github: "",
-    // }
 ]
