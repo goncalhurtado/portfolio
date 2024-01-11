@@ -19,6 +19,14 @@
         padding: 16px;
     }
 
+    .btnContact {
+
+        i,
+        p {
+            color: $text !important;
+        }
+    }
+
     * {
         color: $textLight !important;
     }
