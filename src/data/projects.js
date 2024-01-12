@@ -59,7 +59,7 @@ export const projectsData = [
         "img": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703266104/portfolio-Goncal/data_calculator_mcidys.png",
         "description": "Functional calculator based on the iconic DataMatch Electronic Calculator 2500",
         "technologies": ["ReactJs", "Javascript", "Css"],
-        "url": "datamath2.netlify.app",
+        "url": "https://datamath2.netlify.app/",
         "github": "https://github.com/goncalhurtado/calculator",
         "fullstack": false
     },
