@@ -23,7 +23,13 @@ export const frontEndSkills = [{
 
     },
     {
-        name: "ReactJs",
+        name: "Typescript",
+        icon: "https://skillicons.dev/icons?i=ts",
+        iconLight: "https://skillicons.dev/icons?i=ts&theme=light",
+
+    },
+    {
+        name: "React",
         icon: "https://skillicons.dev/icons?i=react",
         iconLight: "https://skillicons.dev/icons?i=react&theme=light",
     },
