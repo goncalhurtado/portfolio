@@ -13,9 +13,7 @@ const Education = ({ darkMode }) => {
                   <i className={`bi ${edu.icon}`}></i>
                   <h1 className="">{edu.title}</h1>
                   <h2 className="">{edu.institution}</h2>
-                  <p className="">
-                    Status: <b>{edu.status}</b>
-                  </p>
+                  <p className="">{/* Status: <b>{edu.status}</b> */}</p>
                 </div>
               );
             })}
