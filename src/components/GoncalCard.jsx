@@ -41,7 +41,7 @@ const GoncalCard = ({ darkMode }) => {
             </a>
             <a
               className="btnContact"
-              href="https://drive.google.com/uc?export=download&id=1AAEwEe2PQ0nDxjtOXiCVmrQqceLf7kaw"
+              href="https://drive.google.com/uc?export=download&id=1wtyCuBN16L0yqekncjJuXHxLfVjbuO90"
               download=""
             >
               <i className="bi bi-file-earmark-person"></i>
