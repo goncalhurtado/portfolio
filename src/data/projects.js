@@ -44,7 +44,7 @@ export const projectsData = [
     img: "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1703195769/portfolio-Goncal/porfolio_tili_cpmelt.png",
     description: "A portfolio for a senior product designer Lu Diaz Spolita.",
     technologies: ["React", "Scss", "Bootstrap"],
-    url: "https://tilininia.netlify.app/",
+    url: "https://ludiazspolita.netlify.app/",
     github: "https://github.com/goncalhurtado/lucila-portfolio",
     fullstack: false,
   },
