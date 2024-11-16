@@ -19,32 +19,41 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="containerApp">
-      <div className="row">
-        <div className="col-12 col-sm-3 DnoneSm">
-          <GoncalCard darkMode={darkMode} />
-        </div>
-        <div className="col-12 col-sm-9">
-          <div className="mb-3">
-            {" "}
-            <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+    <>
+      <style>
+        {`
+          html {
+            background-color: ${darkMode ? "#231942" : "#d48bf5"};
+          }
+        `}
+      </style>
+      <div className="containerApp">
+        <div className="row">
+          <div className="col-12 col-sm-3 DnoneSm">
+            <GoncalCard darkMode={darkMode} />
           </div>
+          <div className="col-12 col-sm-9">
+            <div className="mb-3">
+              {" "}
+              <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+            </div>
 
-          <Routes>
-            <Route path="/*" element={<Home darkMode={darkMode} />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
-            <Route
-              path="/projects"
-              element={<Projects darkMode={darkMode} />}
-            />
-            <Route
-              path="/education"
-              element={<Education darkMode={darkMode} />}
-            />
-          </Routes>
+            <Routes>
+              <Route path="/*" element={<Home darkMode={darkMode} />} />
+              {/* <Route path="/contact" element={<Contact />} /> */}
+              <Route
+                path="/projects"
+                element={<Projects darkMode={darkMode} />}
+              />
+              <Route
+                path="/education"
+                element={<Education darkMode={darkMode} />}
+              />
+            </Routes>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
