@@ -23,7 +23,7 @@ function App() {
       <style>
         {`
           html {
-            background-color: ${darkMode ? "#231942" : "#d48bf5"};
+            background-color: ${darkMode ? "#120B26" : "#F3EFFF"};
           }
         `}
       </style>
